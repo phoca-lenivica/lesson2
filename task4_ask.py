@@ -1,9 +1,11 @@
 def ask_user():
-	while True:
-		answer = input('Как дела?')
-		if answer == 'Хорошо':
-			break
-		else:
-			continue
+    while True:
+        answer = input('Как дела?')
+        if answer == 'Хорошо':
+            break
+        else:
+            continue
 
-ask_user()
+
+if __name__ == '__main__':
+    ask_user()
